@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+}
+
+#main>.aa1 {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#main>.aa1>img {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+#main>.aa1>.aa {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+#main>.aa1>.aa>.bb {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#main>.aa1>.aa>.bb>.bb2 {
+    display: flex;
+    align-items: center;
+
+}
+
+#main>.aa1>.aa>.bb>.bb2>.cc>button {
+    padding: 7px 20px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+#main>.aa1>.aa>.bb>.bb2>.cc2>button {
+    margin-left: 20%;
+    padding: 1px 32px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#main>.aa1>.aa>.bb>img {
+    height: 20vh;
+    width: 15vw;
+    margin-right: 40%;
+}
+
+#main>.aa1>.aa>.ab {
+    height: 90vh;
+    width: 100vw;
+    text-align: center;
+
+}
+
+#main>.aa1>.aa>.ab>h1 {
+    padding-top:200px;
+    font-size: 60px;
+    color: white;
+}
+#main>.aa1>.aa>.ab>h5 {
+    padding-top:25px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+#main>.aa1>.aa>.ab>h4 {
+    padding-top:30px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: white;
+}
+
+#main>.aa1>.aa>.ab>.box{
+    display: flex;
+    align-items: center;
+    
+}
+#main>.aa1>.aa>.ab>.box>.box1 {
+  height: 8vh;
+  width: 26vw;
+  background-color: rgba(135, 207, 235, 0.299);
+   margin-top: 25px;
+   margin-left: 25%;
+   border: 1px solid white;
+}
+#main>.aa1>.aa>.ab>.box>.box1>.aa1>h4{
+    margin-right:72%;
+ padding-top: 2%;
+ color: white;
+ font-weight: 500;
+}
+#main>.aa1>.aa>.ab>.box>.box1>.aa2>h4{
+    margin-right:40%;
+    color: white;
+    font-weight: 500;
+}
+#main>.aa1>.aa>.ab>.box>.box2>.bb1{
+    height: 8vh;
+    width: 20vw;
+ background-color: red;
+ color: white;
+     margin-top: 25px;
+     margin-left: 25%;
+    
+}
+#main>.aa1>.aa>.ab>.box>.box2>.bb1>h4{
+    padding-top: 3%;
+    font-size: 25px;
+    font-weight: 600;
+}
